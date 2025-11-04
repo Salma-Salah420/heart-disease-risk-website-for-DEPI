@@ -72,13 +72,13 @@ export default function HeartDiseaseRiskDetection() {
         </div>
 
         {/* Health Dashboard Images */}
-<div className="flex flex-col items-start gap-4"> {/* غيري هنا */}
+<div className="flex flex-col items-start gap-4"> 
   <div className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
     <Image
-      src="/images/health-dashboard.jpg"
+      src="https://onu65v95kt.ufs.sh/f/4R8xh8GuA59KnnIxsSe14lX0zg5wK6VveCtZGcINJQkbBOT2"
       alt="MagicHeal Health Dashboard"
       width={500}
-      height={300} {/* غيري الارتفاع */}
+      height={300} 
       className="w-full h-auto object-cover"
       priority
     />
@@ -88,7 +88,7 @@ export default function HeartDiseaseRiskDetection() {
       src="https://onu65v95kt.ufs.sh/f/4R8xh8GuA59Kb4uqDDPNUI8Joi9ymewVPgMWKjRDF30n6flN"
       alt="MagicHeal Health Statistics"
       width={500}
-      height={300} {/* غيري الارتفاع */}
+      height={300} 
       className="w-full h-auto object-cover"
       priority
     />
