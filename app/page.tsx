@@ -71,33 +71,29 @@ export default function HeartDiseaseRiskDetection() {
           <p className="text-gray-600 text-lg">Get your personalized heart disease risk evaluation</p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-          {/* Health Dashboard Image */}
-          <div className="flex items-start">
-            <div className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
-              <Image
-                src="/images/health-dashboard.jpg"
-                alt="MagicHeal Health Dashboard"
-                width={500}
-                height={600}
-                className="w-full h-auto object-cover"
-                priority
-              />
-            </div>
-             <div className="flex items-start">
-            <div className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
-              <Image
-                src="https://onu65v95kt.ufs.sh/f/4R8xh8GuA59Kb4uqDDPNUI8Joi9ymewVPgMWKjRDF30n6flN
-                "
-                alt="MagicHeal Health Dashboard"
-                width={500}
-                height={600}
-                className="w-full h-auto object-cover"
-                priority
-              />
-            </div>
-            
-          </div>
+        {/* Health Dashboard Images */}
+<div className="flex flex-col items-start gap-4"> {/* غيري هنا */}
+  <div className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
+    <Image
+      src="/images/health-dashboard.jpg"
+      alt="MagicHeal Health Dashboard"
+      width={500}
+      height={300} {/* غيري الارتفاع */}
+      className="w-full h-auto object-cover"
+      priority
+    />
+  </div>
+  <div className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
+    <Image
+      src="https://onu65v95kt.ufs.sh/f/4R8xh8GuA59Kb4uqDDPNUI8Joi9ymewVPgMWKjRDF30n6flN"
+      alt="MagicHeal Health Statistics"
+      width={500}
+      height={300} {/* غيري الارتفاع */}
+      className="w-full h-auto object-cover"
+      priority
+    />
+  </div>
+</div>
 
           {/* Main Form Card */}
           <Card className="shadow-lg border-0 h-fit sticky top-8">
