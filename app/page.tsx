@@ -84,6 +84,19 @@ export default function HeartDiseaseRiskDetection() {
                 priority
               />
             </div>
+             <div className="flex items-start">
+            <div className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
+              <Image
+                src="https://onu65v95kt.ufs.sh/f/4R8xh8GuA59Kb4uqDDPNUI8Joi9ymewVPgMWKjRDF30n6flN
+                "
+                alt="MagicHeal Health Dashboard"
+                width={500}
+                height={600}
+                className="w-full h-auto object-cover"
+                priority
+              />
+            </div>
+            
           </div>
 
           {/* Main Form Card */}
